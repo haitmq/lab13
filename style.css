@@ -1,0 +1,53 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      0,
+      rgba(255, 0, 0, 0.3),
+      rgba(0, 255, 0, 0.3)
+    ),
+    url("https://cdn.pixabay.com/photo/2023/03/29/14/44/mushroom-7885658_960_720.jpg");
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-position: center;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 255, 0, 0.3),
+      rgba(0, 0, 255, 0.3)
+    ),
+    url("https://cdn.pixabay.com/photo/2023/04/04/14/36/rose-bud-7899467_960_720.jpg");
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+  background-position: top;
+  background-image: linear-gradient(
+      90deg,
+      rgba(0, 0, 255, 0.3),
+      rgba(255, 0, 0, 0.3)
+    ),
+    url("https://cdn.pixabay.com/photo/2023/03/20/03/55/ducks-7863701_960_720.jpg");
+}
+
+/* css */
+.fix-margintop {
+  margin-top: 55px;
+}
+
+.my-bg-drk {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.fix-position {
+  left: 5% !important;
+}
+
+.fix-height {
+  min-height: 400px;
+  height: 95vh;
+}
